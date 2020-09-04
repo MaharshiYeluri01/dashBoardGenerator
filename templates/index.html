@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        background: #C33764;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #1D2671, #C33764);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #1D2671, #C33764); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    }
+   
+
+</style>
+<body>
+    <nav class="navbar navbar-dark bg-primary">
+        <h4>Dashboard</h4>
+        
+      </nav>
+
+    <div class="container">
+<div style="padding-top: 5%; padding-left: 25%">
+    <div class="card text-center" style="width: 30rem;">
+      
+        <div class="card-body" >
+            <div class="row" style="padding: 10px; align-content: center;">
+
+    
+            
+                    <p>LANE :</p> 
+                    <select id='lane' class="form-control">
+                        {% for lane in lanes %} 
+                        <option>{{lane}}</option>
+                          {% endfor %}
+                      </select>
+                 
+            
+            
+          
+           
+        </div>
+
+        <div class="row" style="padding: 20px; align-content: center;">
+            
+            <p>MODE :</p> 
+                <select id='mode' class="form-control">
+                    
+                    {% for mode in modes %} 
+                    <option>{{mode}}</option>
+                      {% endfor %}
+                  </select>
+            
+            
+        </div>
+
+        <div class="row">
+            <div class="col-md-6">
+                <label for="birthday">MIN DATE </label>
+                <input type="date" id="minDate" name="birthday" style="dis">
+            </div>
+            <div class="col-md-6">
+                <label for="birthday">MAX DATE</label>
+                <input type="date" id="maxDate" name="birthday">
+            </div>
+        </div>
+        <br/>
+          <a id='url' class="btn btn-primary" href="#" onclick="formData()">Generate Dashboard</a>
+        </div>
+      </div>
+</div>
+    
+   
+    </div>
+</body>
+<script>
+    var modeMapping = {
+            'Air': 1,
+            "Land":2,
+            "Sea":3
+            };
+       document.getElementById("minDate").value='2020-07-01'
+       document.getElementById("maxDate").value='2020-07-31'
+       document.getElementById("minDate").disabled=true
+       document.getElementById("maxDate").disabled=true
+       let formData=function(){
+        var mode=modeMapping[document.getElementById("mode").value]
+        var lane=document.getElementById("lane").value
+        document.getElementById("url").href = "/Metrics/"+mode+'/'+lane
+       
+      }
+</script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>

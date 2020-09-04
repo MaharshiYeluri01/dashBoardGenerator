@@ -1,0 +1,301 @@
+Supplier reference name,Order date,Mode,Lane,Cost calc,In full calc,On time calc
+Emirates,2020-07-01,Air,East India-East USA,2.0,0.09910802775024774,0.0
+Maersk,2020-07-02,Sea,East India-East USA,5.0,0.0,0.0
+Agility,2020-07-03,Land,UAE-KSA,3.0,0.0,1.0
+Etihad Rail,2020-07-04,Land,UAE-KSA,3.0,0.13210039630118886,0.0
+Emirates,2020-07-05,Air,East India-West USA,2.0,0.0,0.0
+Maersk,2020-07-06,Sea,East India-West USA,2.0,0.0,0.0
+Agility,2020-07-07,Land,UAE-KSA,5.0,0.3731343283582089,0.0
+Etihad Rail,2020-07-08,Land,UAE-KSA,2.0,0.0,1.0
+Emirates,2020-07-09,Air,East India-South USA,5.0,0.0,0.0
+Maersk,2020-07-10,Sea,East India-South USA,2.0,0.11614401858304302,0.0
+Agility,2020-07-11,Land,UAE-KSA,4.0,0.0,0.0
+Etihad Rail,2020-07-12,Land,UAE-KSA,2.0,0.0,0.0
+Emirates,2020-07-13,Air,East India-Central USA,5.0,0.10940919037199126,0.0
+Maersk,2020-07-14,Sea,East India-Central USA,2.0,0.0,1.0
+Agility,2020-07-15,Land,UAE-KSA,2.0,0.0,0.0
+Etihad Rail,2020-07-16,Land,UAE-KSA,3.0,0.1605136436597111,0.0
+Emirates,2020-07-17,Air,East India-East USA,5.0,0.0,1.0
+Maersk,2020-07-18,Sea,East India-East USA,3.0,0.0,0.0
+Agility,2020-07-19,Land,UAE-KSA,5.0,0.4,0.0
+Etihad Rail,2020-07-20,Land,UAE-KSA,3.0,0.0,0.0
+Emirates,2020-07-21,Air,East India-West USA,4.0,0.0,0.0
+Maersk,2020-07-22,Sea,East India-West USA,3.0,0.13280212483399734,0.0
+Agility,2020-07-23,Land,UAE-KSA,3.0,0.0,1.0
+Etihad Rail,2020-07-24,Land,UAE-KSA,5.0,0.0,0.0
+Emirates,2020-07-25,Air,West India-South USA,3.0,0.2079002079002079,0.0
+Maersk,2020-07-26,Sea,West India-South USA,4.0,0.0,0.0
+Agility,2020-07-27,Land,UAE-KSA,5.0,0.0,0.0
+Etihad Rail,2020-07-28,Land,UAE-KSA,2.0,0.3558718861209964,1.0
+Emirates,2020-07-29,Air,West India-Central USA,3.0,0.0,0.0
+Maersk,2020-07-30,Sea,West India-Central USA,2.0,0.0,0.0
+Agility,2020-07-31,Land,UAE-KSA,2.0,0.390625,0.0
+Etihad Rail,2020-07-01,Land,UAE-KSA,4.0,0.1658374792703151,0.0
+Emirates,2020-07-02,Air,West India-East USA,3.0,0.0,0.0
+Maersk,2020-07-03,Sea,West India-East USA,3.0,0.0,1.0
+Agility,2020-07-04,Land,UAE-KSA,3.0,0.33333333333333337,0.0
+Etihad Rail,2020-07-05,Land,UAE-KSA,4.0,0.0,0.0
+Emirates,2020-07-06,Air,West India-West USA,2.0,0.0,0.0
+Maersk,2020-07-07,Sea,West India-West USA,5.0,0.09615384615384615,0.0
+Agility,2020-07-08,Land,UAE-KSA,5.0,0.0,1.0
+Etihad Rail,2020-07-09,Land,UAE-KSA,4.0,0.0,0.0
+Emirates,2020-07-10,Air,West India-South USA,2.0,0.1897533206831119,0.0
+Maersk,2020-07-11,Sea,West India-South USA,2.0,0.0,0.0
+Agility,2020-07-12,Land,UAE-KSA,3.0,0.0,0.0
+Etihad Rail,2020-07-13,Land,UAE-KSA,2.0,0.1298701298701299,0.0
+Emirates,2020-07-14,Air,West India-Central USA,3.0,0.0,1.0
+Maersk,2020-07-15,Sea,West India-Central USA,4.0,0.0,0.0
+Agility,2020-07-16,Land,UAE-KSA,2.0,0.21413276231263378,0.0
+Etihad Rail,2020-07-17,Land,UAE-KSA,5.0,0.0,1.0
+Emirates,2020-07-18,Air,South India-East USA,5.0,0.0,0.0
+Maersk,2020-07-19,Sea,South India-East USA,4.0,0.09302325581395354,0.0
+Agility,2020-07-20,Land,UAE-KSA,3.0,0.0,0.0
+Etihad Rail,2020-07-21,Land,UAE-KSA,3.0,0.0,0.0
+Emirates,2020-07-22,Air,South India-West USA,3.0,0.23201856148491884,0.0
+Maersk,2020-07-23,Sea,South India-West USA,5.0,0.0,1.0
+Agility,2020-07-24,Land,UAE-KSA,2.0,0.0,0.0
+Etihad Rail,2020-07-25,Land,UAE-KSA,5.0,0.1116071428571429,0.0
+Emirates,2020-07-26,Air,South India-South USA,5.0,0.0,0.0
+Maersk,2020-07-27,Sea,South India-South USA,2.0,0.0,0.0
+Agility,2020-07-28,Land,UAE-KSA,5.0,0.18796992481203012,1.0
+Etihad Rail,2020-07-29,Land,UAE-KSA,5.0,0.0,0.0
+Emirates,2020-07-30,Air,South India-Central USA,5.0,0.0,0.0
+Maersk,2020-07-31,Sea,South India-Central USA,5.0,0.20618556701030932,0.0
+Agility,2020-07-01,Land,UAE-KSA,5.0,0.10649627263045791,0.0
+Etihad Rail,2020-07-02,Land,UAE-KSA,5.0,0.0,0.0
+Emirates,2020-07-03,Air,South India-East USA,3.0,0.0,1.0
+Maersk,2020-07-04,Sea,South India-East USA,3.0,0.11507479861910241,0.0
+Agility,2020-07-05,Land,UAE-KSA,2.0,0.0,0.0
+Etihad Rail,2020-07-06,Land,UAE-KSA,2.0,0.0,0.0
+Emirates,2020-07-07,Air,South India-West USA,3.0,0.12578616352201255,0.0
+Maersk,2020-07-08,Sea,South India-West USA,5.0,0.0,1.0
+Agility,2020-07-09,Land,UAE-KSA,3.0,0.0,0.0
+Etihad Rail,2020-07-10,Land,UAE-KSA,4.0,0.18761726078799246,0.0
+Emirates,2020-07-11,Air,North India-South USA,4.0,0.0,0.0
+Maersk,2020-07-12,Sea,North India-South USA,2.0,0.0,0.0
+Agility,2020-07-13,Land,UAE-KSA,5.0,0.09708737864077666,0.0
+Etihad Rail,2020-07-14,Land,UAE-KSA,3.0,0.0,1.0
+Emirates,2020-07-15,Air,North India-Central USA,2.0,0.0,0.0
+Maersk,2020-07-16,Sea,North India-Central USA,2.0,0.2816901408450704,0.0
+Agility,2020-07-17,Land,UAE-KSA,3.0,0.0,1.0
+Etihad Rail,2020-07-18,Land,UAE-KSA,4.0,0.0,0.0
+Emirates,2020-07-19,Air,North India-East USA,5.0,0.09319664492078283,0.0
+Maersk,2020-07-20,Sea,North India-East USA,5.0,0.0,0.0
+Agility,2020-07-21,Land,UAE-KSA,4.0,0.0,0.0
+Etihad Rail,2020-07-22,Land,UAE-KSA,4.0,0.11507479861910241,0.0
+Emirates,2020-07-23,Air,North India-West USA,3.0,0.0,1.0
+Maersk,2020-07-24,Sea,North India-West USA,5.0,0.0,0.0
+Agility,2020-07-25,Land,UAE-KSA,5.0,0.17211703958691915,0.0
+Etihad Rail,2020-07-26,Land,UAE-KSA,5.0,0.0,0.0
+Emirates,2020-07-27,Air,North India-South USA,5.0,0.0,0.0
+Maersk,2020-07-28,Sea,North India-South USA,4.0,0.13037809647979137,1.0
+Agility,2020-07-29,Land,UAE-KSA,5.0,0.0,0.0
+Etihad Rail,2020-07-30,Land,UAE-KSA,4.0,0.0,0.0
+Emirates,2020-07-31,Air,North India-Central USA,2.0,0.26809651474530827,0.0
+Maersk,2020-07-01,Sea,North India-Central USA,4.0,0.09794319294809006,0.0
+Agility,2020-07-02,Land,UAE-KSA,4.0,0.0,0.0
+Etihad Rail,2020-07-03,Land,UAE-KSA,4.0,0.0,1.0
+Emirates,2020-07-04,Air,North India-East USA,4.0,0.11947431302270017,0.0
+Maersk,2020-07-05,Sea,North India-East USA,4.0,0.0,0.0
+Agility,2020-07-06,Land,UAE-KSA,4.0,0.0,0.0
+Etihad Rail,2020-07-07,Land,UAE-KSA,3.0,0.18484288354898337,0.0
+DSV Panalpina,2020-07-08,Air,East India-West USA,5.0,0.0,1.0
+DHL,2020-07-09,Sea,East India-West USA,4.0,0.0,0.0
+ABC transport,2020-07-10,Land,UAE-KSA,5.0,0.3322259136212624,0.0
+Saudi Rail,2020-07-11,Land,UAE-KSA,2.0,0.0,0.0
+DSV Panalpina,2020-07-12,Air,East India-South USA,2.0,0.0,0.0
+DHL,2020-07-13,Sea,East India-South USA,5.0,0.202020202020202,0.0
+ABC transport,2020-07-14,Land,UAE-KSA,3.0,0.0,1.0
+Saudi Rail,2020-07-15,Land,UAE-KSA,3.0,0.0,0.0
+DSV Panalpina,2020-07-16,Air,East India-Central USA,2.0,0.2801120448179272,0.0
+DHL,2020-07-17,Sea,East India-Central USA,2.0,0.0,1.0
+ABC transport,2020-07-18,Land,UAE-KSA,2.0,0.0,0.0
+Saudi Rail,2020-07-19,Land,UAE-KSA,3.0,0.11061946902654862,0.0
+DSV Panalpina,2020-07-20,Air,East India-East USA,5.0,0.0,0.0
+DHL,2020-07-21,Sea,East India-East USA,3.0,0.0,0.0
+ABC transport,2020-07-22,Land,UAE-KSA,2.0,0.27472527472527475,0.0
+Saudi Rail,2020-07-23,Land,UAE-KSA,2.0,0.0,1.0
+DSV Panalpina,2020-07-24,Air,East India-West USA,4.0,0.0,0.0
+DHL,2020-07-25,Sea,East India-West USA,2.0,0.09157509157509158,0.0
+ABC transport,2020-07-26,Land,UAE-KSA,2.0,0.0,0.0
+Saudi Rail,2020-07-27,Land,UAE-KSA,2.0,0.0,0.0
+DSV Panalpina,2020-07-28,Air,East India-South USA,2.0,0.10214504596527063,1.0
+DHL,2020-07-29,Sea,East India-South USA,3.0,0.0,0.0
+ABC transport,2020-07-30,Land,UAE-KSA,4.0,0.0,0.0
+Saudi Rail,2020-07-31,Land,UAE-KSA,4.0,0.09661835748792269,0.0
+DSV Panalpina,2020-07-01,Air,West India-Central USA,4.0,0.1432664756446992,0.0
+DHL,2020-07-02,Sea,West India-Central USA,4.0,0.0,0.0
+ABC transport,2020-07-03,Land,UAE-KSA,2.0,0.0,1.0
+Saudi Rail,2020-07-04,Land,UAE-KSA,2.0,0.11148272017837235,0.0
+DSV Panalpina,2020-07-05,Air,West India-East USA,5.0,0.0,0.0
+DHL,2020-07-06,Sea,West India-East USA,3.0,0.0,0.0
+ABC transport,2020-07-07,Land,UAE-KSA,3.0,0.3533568904593639,0.0
+Saudi Rail,2020-07-08,Land,UAE-KSA,3.0,0.0,1.0
+DSV Panalpina,2020-07-09,Air,West India-West USA,2.0,0.0,0.0
+DHL,2020-07-10,Sea,West India-West USA,5.0,0.505050505050505,0.0
+ABC transport,2020-07-11,Land,UAE-KSA,3.0,0.0,0.0
+Saudi Rail,2020-07-12,Land,UAE-KSA,4.0,0.0,0.0
+DSV Panalpina,2020-07-13,Air,West India-South USA,3.0,0.11764705882352944,0.0
+DHL,2020-07-14,Sea,West India-South USA,2.0,0.0,1.0
+ABC transport,2020-07-15,Land,UAE-KSA,5.0,0.0,0.0
+Saudi Rail,2020-07-16,Land,UAE-KSA,4.0,0.6060606060606061,0.0
+DSV Panalpina,2020-07-17,Air,West India-Central USA,5.0,0.0,1.0
+DHL,2020-07-18,Sea,West India-Central USA,4.0,0.0,0.0
+ABC transport,2020-07-19,Land,UAE-KSA,2.0,0.24570024570024573,0.0
+Saudi Rail,2020-07-20,Land,UAE-KSA,4.0,0.0,0.0
+DSV Panalpina,2020-07-21,Air,West India-East USA,3.0,0.0,0.0
+DHL,2020-07-22,Sea,West India-East USA,4.0,0.1709401709401709,0.0
+ABC transport,2020-07-23,Land,UAE-KSA,5.0,0.0,1.0
+Saudi Rail,2020-07-24,Land,UAE-KSA,4.0,0.0,0.0
+DSV Panalpina,2020-07-25,Air,South India-West USA,5.0,0.21598272138228947,0.0
+DHL,2020-07-26,Sea,South India-West USA,3.0,0.0,0.0
+ABC transport,2020-07-27,Land,UAE-KSA,3.0,0.0,0.0
+Saudi Rail,2020-07-28,Land,UAE-KSA,5.0,0.019607843137254943,1.0
+DSV Panalpina,2020-07-29,Air,South India-South USA,3.0,0.0,0.0
+DHL,2020-07-30,Sea,South India-South USA,4.0,0.0,0.0
+ABC transport,2020-07-31,Land,UAE-KSA,5.0,0.29325513196480935,0.0
+Saudi Rail,2020-07-01,Land,UAE-KSA,2.0,0.09891196834817018,0.0
+DSV Panalpina,2020-07-02,Air,South India-Central USA,5.0,0.0,0.0
+DHL,2020-07-03,Sea,South India-Central USA,2.0,0.0,1.0
+ABC transport,2020-07-04,Land,UAE-KSA,2.0,0.4065040650406504,0.0
+Saudi Rail,2020-07-05,Land,UAE-KSA,3.0,0.0,0.0
+DSV Panalpina,2020-07-06,Air,South India-East USA,4.0,0.0,0.0
+DHL,2020-07-07,Sea,South India-East USA,3.0,0.24813895781637718,0.0
+ABC transport,2020-07-08,Land,UAE-KSA,4.0,0.0,1.0
+Saudi Rail,2020-07-09,Land,UAE-KSA,3.0,0.0,0.0
+DSV Panalpina,2020-07-10,Air,South India-West USA,5.0,0.1706484641638225,0.0
+DHL,2020-07-11,Sea,South India-West USA,4.0,0.0,0.0
+ABC transport,2020-07-12,Land,UAE-KSA,4.0,0.0,0.0
+Saudi Rail,2020-07-13,Land,UAE-KSA,3.0,0.15847860538827263,0.0
+DSV Panalpina,2020-07-14,Air,South India-South USA,2.0,0.0,1.0
+DHL,2020-07-15,Sea,South India-South USA,5.0,0.0,0.0
+ABC transport,2020-07-16,Land,UAE-KSA,5.0,0.33783783783783783,0.0
+Saudi Rail,2020-07-17,Land,UAE-KSA,2.0,0.0,1.0
+DSV Panalpina,2020-07-18,Air,South India-Central USA,4.0,0.0,0.0
+DHL,2020-07-19,Sea,South India-Central USA,4.0,0.28735632183908044,0.0
+ABC transport,2020-07-20,Land,UAE-KSA,2.0,0.0,0.0
+Saudi Rail,2020-07-21,Land,UAE-KSA,3.0,0.0,0.0
+DSV Panalpina,2020-07-22,Air,North India-East USA,3.0,0.5464480874316939,0.0
+DHL,2020-07-23,Sea,North India-East USA,3.0,0.0,1.0
+ABC transport,2020-07-24,Land,UAE-KSA,3.0,0.0,0.0
+Saudi Rail,2020-07-25,Land,UAE-KSA,2.0,0.11248593925759276,0.0
+DSV Panalpina,2020-07-26,Air,North India-West USA,3.0,0.0,0.0
+DHL,2020-07-27,Sea,North India-West USA,2.0,0.0,0.0
+ABC transport,2020-07-28,Land,UAE-KSA,2.0,0.10416666666666663,1.0
+Saudi Rail,2020-07-29,Land,UAE-KSA,5.0,0.0,0.0
+DSV Panalpina,2020-07-30,Air,North India-South USA,3.0,0.0,0.0
+DHL,2020-07-31,Sea,North India-South USA,3.0,0.10928961748633881,0.0
+ABC transport,2020-07-01,Land,UAE-KSA,2.0,0.21097046413502107,0.0
+Saudi Rail,2020-07-02,Land,UAE-KSA,4.0,0.0,0.0
+DSV Panalpina,2020-07-03,Air,North India-Central USA,3.0,0.0,1.0
+DHL,2020-07-04,Sea,North India-Central USA,5.0,0.21834061135371174,0.0
+ABC transport,2020-07-05,Land,UAE-KSA,4.0,0.0,0.0
+Saudi Rail,2020-07-06,Land,UAE-KSA,4.0,0.0,0.0
+DSV Panalpina,2020-07-07,Air,North India-East USA,4.0,0.49751243781094523,0.0
+DHL,2020-07-08,Sea,North India-East USA,2.0,0.0,1.0
+ABC transport,2020-07-09,Land,UAE-KSA,3.0,0.0,0.0
+Saudi Rail,2020-07-10,Land,UAE-KSA,5.0,0.6666666666666667,0.0
+DSV Panalpina,2020-07-11,Air,North India-West USA,3.0,0.0,0.0
+DHL,2020-07-12,Sea,North India-West USA,3.0,0.0,0.0
+ABC transport,2020-07-13,Land,UAE-KSA,3.0,0.641025641025641,0.0
+Saudi Rail,2020-07-14,Land,UAE-KSA,5.0,0.0,1.0
+UPS,2020-07-15,Air,East India-South USA,5.0,0.0,0.0
+Hellmann,2020-07-16,Sea,East India-South USA,4.0,0.130718954248366,0.0
+Global transport,2020-07-17,Land,UAE-KSA,5.0,0.0,1.0
+Oman Rail,2020-07-18,Land,UAE-KSA,3.0,0.0,0.0
+UPS,2020-07-19,Air,East India-Central USA,2.0,0.12658227848101267,0.0
+Hellmann,2020-07-20,Sea,East India-Central USA,5.0,0.0,0.0
+Global transport,2020-07-21,Land,UAE-KSA,3.0,0.0,0.0
+Oman Rail,2020-07-22,Land,UAE-KSA,4.0,0.628930817610063,0.0
+UPS,2020-07-23,Air,East India-East USA,4.0,0.0,1.0
+Hellmann,2020-07-24,Sea,East India-East USA,4.0,0.0,0.0
+Global transport,2020-07-25,Land,UAE-KSA,4.0,0.17761989342806395,0.0
+Oman Rail,2020-07-26,Land,UAE-KSA,4.0,0.0,0.0
+UPS,2020-07-27,Air,East India-West USA,4.0,0.0,0.0
+Hellmann,2020-07-28,Sea,East India-West USA,4.0,0.10718113612004287,1.0
+Global transport,2020-07-29,Land,UAE-KSA,5.0,0.0,0.0
+Oman Rail,2020-07-30,Land,UAE-KSA,2.0,0.0,0.0
+UPS,2020-07-31,Air,East India-South USA,5.0,0.09363295880149813,0.0
+Hellmann,2020-07-01,Sea,East India-South USA,3.0,0.42553191489361697,0.0
+Global transport,2020-07-02,Land,UAE-KSA,3.0,0.0,0.0
+Oman Rail,2020-07-03,Land,UAE-KSA,3.0,0.0,1.0
+UPS,2020-07-04,Air,East India-Central USA,2.0,0.10319917440660475,0.0
+Hellmann,2020-07-05,Sea,East India-Central USA,4.0,0.0,0.0
+Global transport,2020-07-06,Land,UAE-KSA,2.0,0.0,0.0
+Oman Rail,2020-07-07,Land,UAE-KSA,5.0,0.29761904761904767,0.0
+UPS,2020-07-08,Air,West India-East USA,5.0,0.0,1.0
+Hellmann,2020-07-09,Sea,West India-East USA,3.0,0.0,0.0
+Global transport,2020-07-10,Land,UAE-KSA,4.0,0.3215434083601286,0.0
+Oman Rail,2020-07-11,Land,UAE-KSA,2.0,0.0,0.0
+UPS,2020-07-12,Air,West India-West USA,5.0,0.0,0.0
+Hellmann,2020-07-13,Sea,West India-West USA,5.0,0.14367816091954022,0.0
+Global transport,2020-07-14,Land,UAE-KSA,3.0,0.0,1.0
+Oman Rail,2020-07-15,Land,UAE-KSA,4.0,0.0,0.0
+UPS,2020-07-16,Air,West India-South USA,5.0,0.49504950495049505,0.0
+Hellmann,2020-07-17,Sea,West India-South USA,4.0,0.0,1.0
+Global transport,2020-07-18,Land,UAE-KSA,3.0,0.0,0.0
+Oman Rail,2020-07-19,Land,UAE-KSA,2.0,0.09737098344693285,0.0
+UPS,2020-07-20,Air,West India-Central USA,3.0,0.0,0.0
+Hellmann,2020-07-21,Sea,West India-Central USA,5.0,0.0,0.0
+Global transport,2020-07-22,Land,UAE-KSA,4.0,0.20533880903490764,0.0
+Oman Rail,2020-07-23,Land,UAE-KSA,5.0,0.0,1.0
+UPS,2020-07-24,Air,West India-East USA,2.0,0.0,0.0
+Hellmann,2020-07-25,Sea,West India-East USA,4.0,0.125,0.0
+Global transport,2020-07-26,Land,UAE-KSA,3.0,0.0,0.0
+Oman Rail,2020-07-27,Land,UAE-KSA,3.0,0.0,0.0
+UPS,2020-07-28,Air,West India-West USA,3.0,0.16556291390728473,1.0
+Hellmann,2020-07-29,Sea,West India-West USA,3.0,0.0,0.0
+Global transport,2020-07-30,Land,UAE-KSA,3.0,0.0,0.0
+Oman Rail,2020-07-31,Land,UAE-KSA,5.0,0.23752969121140144,0.0
+UPS,2020-07-01,Air,West India-South USA,2.0,0.10060362173038229,0.0
+Hellmann,2020-07-02,Sea,West India-South USA,4.0,0.0,0.0
+Global transport,2020-07-03,Land,UAE-KSA,3.0,0.0,1.0
+Oman Rail,2020-07-04,Land,UAE-KSA,4.0,0.2777777777777778,0.0
+UPS,2020-07-05,Air,South India-Central USA,4.0,0.0,0.0
+Hellmann,2020-07-06,Sea,South India-Central USA,2.0,0.0,0.0
+Global transport,2020-07-07,Land,UAE-KSA,3.0,0.12254901960784315,0.0
+Oman Rail,2020-07-08,Land,UAE-KSA,2.0,0.0,1.0
+UPS,2020-07-09,Air,South India-East USA,4.0,0.0,0.0
+Hellmann,2020-07-10,Sea,South India-East USA,4.0,0.1273885350318471,0.0
+Global transport,2020-07-11,Land,UAE-KSA,2.0,0.0,0.0
+Oman Rail,2020-07-12,Land,UAE-KSA,3.0,0.0,0.0
+UPS,2020-07-13,Air,South India-West USA,5.0,0.3558718861209964,0.0
+Hellmann,2020-07-14,Sea,South India-West USA,2.0,0.0,1.0
+Global transport,2020-07-15,Land,UAE-KSA,4.0,0.0,0.0
+Oman Rail,2020-07-16,Land,UAE-KSA,4.0,0.23364485981308414,0.0
+UPS,2020-07-17,Air,South India-South USA,2.0,0.0,1.0
+Hellmann,2020-07-18,Sea,South India-South USA,5.0,0.0,0.0
+Global transport,2020-07-19,Land,UAE-KSA,5.0,0.18832391713747643,0.0
+Oman Rail,2020-07-20,Land,UAE-KSA,5.0,0.0,0.0
+UPS,2020-07-21,Air,South India-Central USA,5.0,0.0,0.0
+Hellmann,2020-07-22,Sea,South India-Central USA,2.0,0.4901960784313726,0.0
+Global transport,2020-07-23,Land,UAE-KSA,3.0,0.0,1.0
+Oman Rail,2020-07-24,Land,UAE-KSA,3.0,0.0,0.0
+UPS,2020-07-25,Air,South India-East USA,3.0,0.10548523206751059,0.0
+Hellmann,2020-07-26,Sea,South India-East USA,2.0,0.0,0.0
+Global transport,2020-07-27,Land,UAE-KSA,5.0,0.0,0.0
+Oman Rail,2020-07-28,Land,UAE-KSA,4.0,0.18587360594795543,1.0
+UPS,2020-07-29,Air,North India-West USA,3.0,0.0,0.0
+Hellmann,2020-07-30,Sea,North India-West USA,5.0,0.0,0.0
+Global transport,2020-07-31,Land,UAE-KSA,2.0,0.23923444976076558,0.0
+Oman Rail,2020-07-01,Land,UAE-KSA,3.0,0.1490312965722802,0.0
+UPS,2020-07-02,Air,North India-South USA,5.0,0.0,0.0
+Hellmann,2020-07-03,Sea,North India-South USA,5.0,0.0,1.0
+Global transport,2020-07-04,Land,UAE-KSA,2.0,0.20408163265306123,0.0
+Oman Rail,2020-07-05,Land,UAE-KSA,4.0,0.0,0.0
+UPS,2020-07-06,Air,North India-Central USA,4.0,0.0,0.0
+Hellmann,2020-07-07,Sea,North India-Central USA,3.0,0.09442870632672329,0.0
+Global transport,2020-07-08,Land,UAE-KSA,5.0,0.0,1.0
+Oman Rail,2020-07-09,Land,UAE-KSA,4.0,0.0,0.0
+UPS,2020-07-10,Air,North India-East USA,4.0,0.6211180124223603,0.0
+Hellmann,2020-07-11,Sea,North India-East USA,3.0,0.0,0.0
+Global transport,2020-07-12,Land,UAE-KSA,4.0,0.0,0.0
+Oman Rail,2020-07-13,Land,UAE-KSA,3.0,0.10764262648008616,0.0
+UPS,2020-07-14,Air,North India-West USA,2.0,0.0,1.0
+Hellmann,2020-07-15,Sea,North India-West USA,3.0,0.0,0.0
+Global transport,2020-07-16,Land,UAE-KSA,3.0,0.14204545454545459,0.0
+Oman Rail,2020-07-17,Land,UAE-KSA,5.0,0.0,1.0
+UPS,2020-07-18,Air,North India-South USA,4.0,0.0,0.0
+Hellmann,2020-07-19,Sea,North India-South USA,2.0,0.3003003003003003,0.0
+Global transport,2020-07-20,Land,UAE-KSA,2.0,0.0,0.0
+Oman Rail,2020-07-21,Land,UAE-KSA,3.0,0.0,0.0
