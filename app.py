@@ -14,6 +14,7 @@ Min,Max=pd.to_datetime('2020-07-01'),pd.to_datetime('2020-07-31')
 modeDictionary={'1':'Air','2':'Land','3':'Sea'}
 lanes=list(db['Lane'].unique())
 modes=list(modeDictionary.values())
+
 def applyFilters(mode,lane,applyDateFilter=None):
     filteredData=db.query(f"Mode=='{mode}'")
     filteredData=filteredData.query(f"Lane=='{lane}'")
@@ -40,7 +41,7 @@ def generateBarColors(unitCostMetric,inFullMetric,onTimeMetric):
 
 
 def createJson(trace):
-    return json.dumps([trace], cls=plotly.utils.PlotlyJSONEncoder)
+    return json.dumps(trace, cls=plotly.utils.PlotlyJSONEncoder)
 
 
 
@@ -55,13 +56,13 @@ def bar(mode,lane):
     mode=modeDictionary[mode]
     data=applyFilters(mode,lane)
     if len(data)>=1:
+
         unitCostMetric,inFullMetric,onTimeMetric=calculateMetrics(data)
         colors=generateBarColors(unitCostMetric,inFullMetric,onTimeMetric)
         trace1 = go.Bar(x=unitCostMetric.index, y=unitCostMetric.values,width=0.5,marker={'color':colors[0]})
-        trace2 = go.Bar(x=inFullMetric.index, y=inFullMetric.values,width=0.6,marker={'color':colors[1]})
-        trace3 = go.Bar(x=onTimeMetric.index, y=onTimeMetric.values,width=0.6,marker={'color':colors[2]})
-        print(colors)
-       
+        trace2 = go.Bar(x=inFullMetric.index, y=inFullMetric.values,width=0.5,marker={'color':colors[1]})
+        trace3 = go.Bar(x=onTimeMetric.index, y=onTimeMetric.values,width=0.5,marker={'color':colors[2]})
+        
         return render_template('chart.html',barJSON1=createJson(trace1),
         barJSON2=createJson(trace2),barJSON3=createJson(trace3),mode=mode,lane=lane)
     return f'No enough data, {mode},{lane},{len(data)} out of {len(db)} records'
