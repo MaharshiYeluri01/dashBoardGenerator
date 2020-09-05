@@ -12,12 +12,30 @@
 <style>
     body {
         background: #C33764;
-        /* fallback for old browsers */
+        
         background: -webkit-linear-gradient(to right, #1D2671, #C33764);
-        /* Chrome 10-25, Safari 5.1-6 */
+        
         background: linear-gradient(to right, #1D2671, #C33764);
-        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        
 
+    }
+    .panel{
+        padding-top: 8%; 
+        padding-left: 25%;
+        padding-right: 25%
+
+    }
+    .panel .card{
+        width:100%
+    }
+
+    @media(max-width: 1000px){
+    .panel{
+        padding-top: 8%; 
+        padding-left: 5%;
+        padding-right: 5%
+
+    } 
     }
 </style>
 
@@ -28,8 +46,8 @@
     </nav>
 
     <div class="container">
-        <div style="padding-top: 5%; padding-left: 25%">
-            <div class="card text-center" style="width: 60%">
+        <div class="panel">
+            <div class="card text-center">
 
                 <div class="card-body">
                     <div class="row" style="padding: 10px; align-content: center;">
