@@ -23,8 +23,9 @@
     </nav>
     <br>
     <div style="text-align: center;">
-        
-        <h6> Metrics for Mode : <span style="color: blue;">{{mode}}</span> & Lane : <span style="color: blue;">{{lane}}</span></h6>
+
+        <h6> Metrics for Mode : <span style="color: blue;">{{mode}}</span> & Lane : <span
+                style="color: blue;">{{lane}}</span></h6>
     </div>
 
     <div class="body">
@@ -46,25 +47,26 @@
     var bar1 = {{ barJSON1 | safe}};
     var bar2 = {{ barJSON2 | safe}};
     var bar3 = {{ barJSON3 | safe}};
-    console.log(bar1,bar2,bar3)
-    bar2['xaxis']='x2'
-    bar2['yaxis']='y2'
-    bar3['xaxis']='x3'
-    bar3['yaxis']='y3'
-    var data=[bar1,bar2,bar3]
+    console.log(bar1, bar2, bar3)
+    bar2['xaxis'] = 'x2'
+    bar2['yaxis'] = 'y2'
+    bar3['xaxis'] = 'x3'
+    bar3['yaxis'] = 'y3'
+    var data = [bar1, bar2, bar3]
     var layout = {
-            grid: { rows: 1, columns: 3, pattern: 'independent' ,},
-            showlegend: false,
-            xaxis: {
-                tickangle: -90
-            },
-            xaxis2: {
-                tickangle: -90
-            },
-            xaxis3: {
-                tickangle: -90
-            },
-            annotations: [{
+
+        grid: { rows: 1, columns: 3, pattern: 'independent', },
+        showlegend: false,
+        xaxis: {
+            tickangle: -90
+        },
+        xaxis2: {
+            tickangle: -90
+        },
+        xaxis3: {
+            tickangle: -90
+        },
+        annotations: [{
             text: "UNIT CHARGE METRIC",
             font: {
                 size: 16,
@@ -104,11 +106,11 @@
             yref: 'paper',
         }
         ]
-            
-        };
-   
+
+    };
+
     Plotly.newPlot('unitMetric', data, layout, { displayModeBar: false, format: 'svg' });
-    
+
 
 </script>
 
